@@ -1,0 +1,4 @@
+<router-outlet></router-outlet>
+<div class="toast_cont" *ngIf="messageService['isToastOpen']">
+  <div class="msg_cont">{{messageService['toastMessage']}}</div>
+</div>
