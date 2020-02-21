@@ -4,6 +4,10 @@ var app = express();
  
 app.use(express.static('./'));
 
+app.get('*', function(request, response, next) {
+    response.sendfile(__dirname + '/index.html');
+});
+
  
 var server = app.listen(process.env.PORT || 5000, function(){
     var port = server.address().port;
