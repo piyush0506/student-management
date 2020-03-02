@@ -27,3 +27,5 @@ Students section:
 - Option to filter records by typing student name.
 
 ## Live Preview: 
+
+https://angular-task-eb.herokuapp.com/
